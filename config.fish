@@ -5,6 +5,7 @@ source ~/bash_config/.bash_aliases
 # your path gets massive and fish becomes very slow.
 # set -e fish_user_paths
 # set -U fish_user_paths $HOME/.bin  $HOME/.local/bin $HOME/.config/emacs/bin $HOME/Applications /var/lib/fla
+set -g theme_nerd_fonts yes
 set -g fish_term24bit 1
 ### EXPORT ###
 set fish_greeting                                 # Supresses fish's intro message
