@@ -6,6 +6,7 @@ source ~/bash_config/.bash_aliases
 # set -e fish_user_paths
 # set -U fish_user_paths $HOME/.bin  $HOME/.local/bin $HOME/.config/emacs/bin $HOME/Applications /var/lib/fla
 # set -x NVIM_APPNAME nvim-kickstart
+fish_default_key_bindings
 set -x NVIM_APPNAME nvim-custom
 set -g theme_nerd_fonts yes
 set -g fish_term24bit 1
